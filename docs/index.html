@@ -13,9 +13,11 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
     </head>
 
-    <body>
+    <body id = "wrapper">
         <div class = "container">
             <nav class="navbar navbar-inverse">
                 <div class="navbar-header">
@@ -29,20 +31,29 @@
 
                 <div class="collapse navbar-collapse" id="myNavbar">
                     <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Why VPN?</a></li>
+                        <li class="active"><a href="#">How dowes VPN Work?</a></li>
                         <li><a href="#">Pricing</a></li>
                         <li><a href="#">Support</a></li>
                     </ul>
                 </div>
             </nav>
 
-            <div id = "jumbo" class = "jumbotron">
-
+            <div id = "card1" class="card mb-3">
+                <center><img class="card-img-top" src = "image/vpnPoster.png" alt="Card image cap"><hr>
+                    <div class="card-body">
+                        <h1 class="card-title">How does Virtual Private Network Works?</h1>
+                        <p class="card-text">
+                            A VPN connection is the extension of a private network that includes links across shared or public networks, such as the Internet.
+                            VPN connections (VPNs) enable organizations to send data between two computers across the Internet in a manner that emulates the properties
+                            of a point-to-point private link.
+                        </p>
+                    </div>
+                </center>
             </div>
 
             <div class = "row">
                 <div class = "col-sm-6">
-                    <div class="card">
+                    <div id = "card2" class="card">
                         <div class="card-body">
                             <h2 class="card-title">Set Up & Use VPN</h2>
                             <p class="card-text">A VPN is one of the best, easiest tools you can use to secure your data and protect your privacy online</p>
@@ -52,7 +63,7 @@
                 </div>
 
                 <div class = "col-sm-6">
-                    <div class="card">
+                    <div id = "card3" class="card">
                         <div class="card-body">
                             <h2 class="card-title">How to Choose A VPN</h2>
                             <p class="card-text">There are a few key metrics we look for. A VPN service that allow you to connect at least five devices at a time.</p>
@@ -61,9 +72,13 @@
                     </div>
                 </div>
             </div>
-
         </div>
 
+        <footer class="footer">
+            <div class = "container">
+                <h5>@ Shivam Gandhi</h5>
+            </div>
+        </footer>
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
