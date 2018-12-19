@@ -109,7 +109,7 @@ span.glyphicon{
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
 }
 
-#aboutCard1, #aboutCard2{
+#aboutCard1, #aboutCard2, #aboutCard3{
     border: 1px solid rgb(223, 223, 223);
     background-color: white;
     margin-bottom: 20px;
@@ -121,6 +121,11 @@ span.glyphicon{
 #vpnLogo{
     width: 200px;
     height: 200px;
+}
+
+#aboutPoster{
+    width: 100%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
 }
 
 .footer {
