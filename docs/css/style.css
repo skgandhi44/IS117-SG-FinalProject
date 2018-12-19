@@ -36,7 +36,7 @@
     text-align: center;
     color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
-    background-color: rgb(0, 110, 167);
+    background-color: #5504A6;
     border-radius: 0 !important;
 }
 
@@ -99,4 +99,9 @@ span.glyphicon{
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+
+#vpnLogo{
+    width: 200px;
+    height: 200px;
 }
