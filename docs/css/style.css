@@ -73,3 +73,7 @@
     border-radius: 0px;
     margin-bottom: 3px;
 }
+
+span.glyphicon{
+    font-size: 4.5em;
+}
