@@ -36,6 +36,8 @@
     text-align: center;
     background-color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+    background-color: rgb(0, 110, 167);
+    border-radius: 0 !important;
 }
 
 .card-text, h3{
@@ -56,4 +58,18 @@
     height: 50px;
     padding-top: 12px;
     font-size: 16px;
+}
+
+#searchInput{
+    width: 50%;
+    border: none;
+    height: 45px;
+    text-indent: 10px;
+}
+
+#searchBtn{
+    height: 45px;
+    width: 100px;
+    border-radius: 0px;
+    margin-bottom: 3px;
 }
