@@ -84,6 +84,8 @@ span.glyphicon{
 
 #iconCard1, #iconCard2, #iconCard3, #iconCard4{
     padding: 50px;
+    height: 300px;
+    width: 100%;
     text-align: center;
     background-color: white;
     margin-bottom: 30px;
