@@ -77,3 +77,15 @@
 span.glyphicon{
     font-size: 4.5em;
 }
+
+#header{
+    margin-bottom: 30px;
+}
+
+#iconCard1, #iconCard2, #iconCard3, #iconCard4{
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
