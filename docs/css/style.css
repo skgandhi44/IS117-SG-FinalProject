@@ -34,7 +34,7 @@
 
 .jumbotron{
     text-align: center;
-    background-color: white;
+    color: white;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
     background-color: rgb(0, 110, 167);
     border-radius: 0 !important;
